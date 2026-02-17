@@ -7,13 +7,13 @@
 
 # proper language detection
 *.vdf linguist-detectable=true
-*.res linguist-detectable=true linguist-language=Valve_Data_Format
-*.txt linguist-detectable=true linguist-language=Valve_Data_Format
-*.vmt linguist-detectable=true linguist-language=Valve_Data_Format
+*.res linguist-detectable=true linguist-language=vdf
+*.txt linguist-detectable=true linguist-language=vdf
+*.vmt linguist-detectable=true linguist-language=vdf
 
 # Do not export these files on download
 .gitattributes export-ignore
 .gitignore export-ignore
 .git export-ignore
-README.md export-ignoreds
+README.md export-ignored
 CONTRIBUTING.md export-ignored
