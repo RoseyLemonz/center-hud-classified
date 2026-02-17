@@ -185,6 +185,8 @@
 		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
 		"teambg_3"		"../hud/character_blue_bg"
+		"teambg_4"		"../hud/character_green_bg"
+		"teambg_5"		"../hud/character_yellow_bg"
 	}
 
     // Nuked
