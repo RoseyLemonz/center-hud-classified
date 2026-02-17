@@ -6,6 +6,7 @@
 *.vmt eol=crlf
 
 # proper language detection
+*.vdf linguist-detectable=true
 *.res linguist-language=vdf
 *.txt linguist-language=vdf
 *.vmt linguist-language=vdf
