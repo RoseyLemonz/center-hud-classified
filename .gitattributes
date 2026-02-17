@@ -6,10 +6,9 @@
 *.vmt eol=crlf
 
 # proper language detection
-*.vdf linguist-detectable=true
-*.res linguist-detectable=true linguist-language=vdf
-*.txt linguist-detectable=true linguist-language=vdf
-*.vmt linguist-detectable=true linguist-language=vdf
+*.res linguist-language=vdf
+*.txt linguist-language=vdf
+*.vmt linguist-language=vdf
 
 # Do not export these files on download
 .gitattributes export-ignore
