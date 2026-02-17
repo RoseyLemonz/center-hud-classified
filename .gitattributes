@@ -7,9 +7,9 @@
 
 # proper language detection
 *.vdf linguist-detectable=true
-*.res linguist-detectable=true linguist-language=Valve-Data-Format
-*.txt linguist-detectable=true linguist-language=Valve-Data-Format
-*.vmt linguist-detectable=true linguist-language=Valve-Data-Format
+*.res linguist-detectable=true linguist-language=Valve_Data_Format
+*.txt linguist-detectable=true linguist-language=Valve_Data_Format
+*.vmt linguist-detectable=true linguist-language=Valve_Data_Format
 
 # Do not export these files on download
 .gitattributes export-ignore
