@@ -48,8 +48,8 @@
 
 	DisguiseStatus
 	{
-		"xpos"		"cs-0.5-218"
-		"wide"		"105"
+		"xpos"		"cs-0.5-208"
+		"wide"		"129"
 		"tall"		"65"
 		"xpos_minmode"		"cs-0.5-202"
 		"ypos_minmode"		"rs1"

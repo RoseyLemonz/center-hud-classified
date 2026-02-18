@@ -165,7 +165,7 @@
 	"PlayerStatusSpyImage"
 	{
 		"xpos"			"cs-0.5-242"
-		"ypos"			"rs1.27"
+		"ypos"			"rs1.22"
 		"xpos_minmode"		"r0"
 	}	
 	"PlayerClassBG"

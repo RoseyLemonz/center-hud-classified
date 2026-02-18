@@ -7,7 +7,6 @@
 		"delta_item_x_minmode"			"52"
 		"delta_item_start_y_minmode"	"2"
 		"delta_item_end_y_minmode"		"2"
-		"delta_item_font"		"HudFontMediumSmallOutline"
 	}
 	
 	"AccountBG"
@@ -19,6 +18,8 @@
 		"image"			"replay/thumbnails/hud/meter/hud_main_meter"
 		"teambg_2"		"replay/thumbnails/hud/meter/hud_main_meter_red"
 		"teambg_3"		"replay/thumbnails/hud/meter/hud_main_meter_blue"
+		"teambg_4"		"replay/thumbnails/hud/meter/hud_main_meter_green"
+		"teambg_5"		"replay/thumbnails/hud/meter/hud_main_meter_yellow"
 	}	
 	
 	"MinmodeBG"
@@ -46,8 +47,8 @@
 	
 	"MetalIcon"	
 	{
-		"xpos"			"22"
-		"ypos"			"52"
+		"xpos"			"18"
+		"ypos"			"48"
 		"xpos_minmode"	"5"
 		"ypos_minmode"	"cs-0.5"
 		"proportionaltoparent"	"1"

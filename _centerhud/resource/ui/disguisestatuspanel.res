@@ -40,6 +40,37 @@
 		"xpos_minmode"			"2"
 		"ypos_minmode"			"-4"
 		"wide_minmode"			"35"
-		"tall_minmode"			"30"	
+		"tall_minmode"			"30"
+	}
+
+	"SpywalkLabel"
+	{	
+		"xpos"				"rs1-2"
+		"proportionaltoparent"	"1"
+	}
+	"SpywalkBG"
+	{
+		"xpos"				"rs1"
+		"proportionaltoparent"	"1"	
+	}	
+	"SpywalkStatusIconInactive"
+	{
+		"xpos"					"rs1-3"
+		"proportionaltoparent"	"1"	
+		
+		if_hidekeybinds
+		{
+			"ypos"				"34"
+		}
+	}	
+	"SpywalkStatusIconActive"
+	{
+		"xpos"					"rs1-1"
+		"proportionaltoparent"	"1"	
+		
+		if_hidekeybinds
+		{
+			"ypos"				"34"
+		}
 	}
 }
