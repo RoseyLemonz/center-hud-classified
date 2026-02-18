@@ -73,19 +73,24 @@
 		"xpos_minmode"	"r0"
 	}
 
-	"ResistIconAnchor"
+	"KritzClusterIcon"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"ResistIconAnchor"
-		"xpos"			"cs-0.5+140"
-		"ypos"			"rs1-66"
-		"wide"			"0"
-		"xpos_minmode"	"cs-0.5+142"
-		"ypos_minmode"	"rs1-22"
+		"xpos"			"cs-0.5+164"
+		"ypos"			"rs1-18"
+		"xpos_minmode"	"r0"
 	}
 
-	"ResistIcon"
+	"InvulnClusterIcon"
 	{
-		"pin_to_sibling" "ResistIconAnchor"
+		"xpos"			"cs-0.5+164"
+		"ypos"			"rs1-18"
+		"xpos_minmode"	"r0"
+	}
+
+	"NaderClusterIcon"
+	{
+		"xpos"			"cs-0.5+164"
+		"ypos"			"rs1-18"
+		"xpos_minmode"	"r0"
 	}
 }

@@ -14,6 +14,23 @@
 		"xpos_minmode"	"cs-0.5+202"
 		"ypos_minmode"	"r25"
 	}
+
+	"HudWeaponAmmoBGMedicCharge"
+	{
+		"xpos"			"cs-0.5+207"
+		"ypos"			"rs1-11"
+		"xpos_minmode"	"cs-0.5+202"
+		"ypos_minmode"	"r25"
+	}
+	
+	"HudWeaponLowAmmoImageMedicCharge"
+	{
+		"xpos"			"cs-0.5+207"
+		"ypos"			"rs1-11"
+		"xpos_minmode"	"cs-0.5+202"
+		"ypos_minmode"	"r25"
+	}
+
 	"WeaponBucket"
 	{
 		"xpos"			"r0"

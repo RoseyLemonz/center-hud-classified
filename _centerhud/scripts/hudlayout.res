@@ -8,6 +8,10 @@
 		"tall"	"f0"
 		"xpos_minmode"	"0"
 		"ypos_minmode"	"0"	
+
+		"x_offset_mediccharge"	"-18"
+		"y_offset_mediccharge"	"-40"
+		"y_offset_mediccharge_minmode"	"-67"
 	}
 
 	HudDemomanPipes
@@ -52,6 +56,17 @@
 		"wide_minmode"		"100"
 		"tall_minmode"		"20"
 	}
+
+	HudWeaponChargeMeter
+	{
+		"xpos"			"c182"
+		"ypos"			"rs1-16"
+		"tall"			"5"	
+		"xpos_minmode"	"c182"
+		"ypos_minmode"	"r6"
+		"wide_minmode"	"60"
+		"tall_minmode"	"5"
+	}		
 
 	HudCloseCaption
 	{
