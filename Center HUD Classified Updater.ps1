@@ -448,7 +448,6 @@ try {
 		Write-Host -foregroundcolor "Blue" "==================="
 		Write-Host -foregroundcolor "Blue" "Extract Default HUD"
 		Write-Host -foregroundcolor "Blue" "==================="
-		Write-Host ""
 
 		# Perform any necessary checks
 		Check_TF2Running
@@ -464,8 +463,6 @@ try {
 		Write-Host -foregroundcolor "White" "Beginning update."
 		Write-Host ""
 
-		Write-Host -foregroundcolor "Blue" "Complete"
-
 		# Delete old folder
 		Write-Host -foregroundcolor "White" -NoNewLine "Deleting _tf2chud folder..."
 		Remove-Item $PSScriptRoot\_tf2chud -ErrorAction SilentlyContinue -recurse
@@ -475,8 +472,6 @@ try {
 		Write-Host -foregroundcolor "White" -NoNewLine "Making new _tf2chud folders..."
 		New-Item -Path $PSScriptRoot\_tf2chud\resource -Name "ui" -ItemType "Directory" > $null
 		New-Item -Path $PSScriptRoot\_tf2chud -Name "scripts" -ItemType "Directory" > $null
-		Write-Host -foregroundcolor "Blue" "Complete"
-
 		Write-Host -foregroundcolor "Blue" "Complete"
 
 		$misc_dir = Resolve-Path "../../vpks/tf2c_assets_dir.vpk"
@@ -493,6 +488,7 @@ try {
 		Write-Host -foregroundcolor "White" -NoNewLine "Deleting _tf2chud/resource/svgs..."
 		Remove-Item $PSScriptRoot\_tf2chud\resource\svgs -ErrorAction SilentlyContinue -recurse
 		Write-Host -foregroundcolor "Blue" "Complete"
+		Write-Host ""
 
 		Write-Host -foregroundcolor "Green" "============="
 		Write-Host -foregroundcolor "Green" "Task Complete"
