@@ -15,5 +15,5 @@
 .gitattributes export-ignore
 .gitignore export-ignore
 .git export-ignore
-README.md export-ignored
-CONTRIBUTING.md export-ignored
+README.md export-ignore
+CONTRIBUTING.md export-ignore
