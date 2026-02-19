@@ -1,1 +1,54 @@
-// TODO: Fix the disguise animation pos
+// Spy Disguise
+event HudSpyDisguiseApplied
+{
+	StopEvent HudSpyDisguiseFadeOut 0
+	StopEvent HudSpyDisguiseRemoved 0
+	StopEvent HudSpyDisguiseReveal 0
+
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 r195"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.5
+}
+
+event HudSpyDisguiseHide
+{
+	StopEvent HudSpyDisguiseFadeOut 0
+	StopEvent HudSpyDisguiseRemoved 0
+	StopEvent HudSpyDisguiseReveal 0
+
+	Animate PlayerStatusSpyOutlineImage		Position	"c-280 r88"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"72 72"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+	
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.2 0.1
+}
+
+event HudSpyDisguiseRemoved
+{
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.0 0.0
+
+	StopEvent HudSpyDisguiseFadeIn 0
+	StopEvent HudSpyDisguiseApplied 0
+	StopEvent HudSpyDisguiseHide 0
+
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 r195"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseReveal	0.5
+}
+
+event HudSpyDisguiseReveal
+{
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.0 0.0
+
+	StopEvent HudSpyDisguiseFadeIn 0
+	StopEvent HudSpyDisguiseApplied 0
+	StopEvent HudSpyDisguiseHide 0
+
+	Animate PlayerStatusSpyOutlineImage		Position	"c-254 r91"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"80 80"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
