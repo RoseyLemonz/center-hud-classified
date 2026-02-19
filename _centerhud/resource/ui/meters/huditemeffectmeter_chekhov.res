@@ -1,4 +1,4 @@
-"x"
+"resource/ui/meters/huditemeffectmeter_chekhov.res"
 {
 	HudItemEffectMeter
 	{

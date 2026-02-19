@@ -1,4 +1,4 @@
-"resource/hudlayout.res"
+"scripts/hudlayout.res"
 {
 	HudWeaponAmmo
 	{

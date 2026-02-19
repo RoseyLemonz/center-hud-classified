@@ -1,6 +1,6 @@
 #base "huditemeffectmeter.res"
 
-"x"
+"resource/ui/meters/huditemeffectmeter_ico_base.res"
 {
 	"EmptyIcon"
 	{

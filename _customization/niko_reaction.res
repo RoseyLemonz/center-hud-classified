@@ -1,4 +1,4 @@
-"Niko"
+"scripts/hudlayout.res"
 {
 	"niko"
 	{

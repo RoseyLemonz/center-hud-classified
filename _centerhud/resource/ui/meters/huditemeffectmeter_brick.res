@@ -1,7 +1,7 @@
 #base "huditemeffectmeter_ico_base.res"
 #base "huditemeffectmeter.res"
 
-"x"
+"resource/ui/meters/huditemeffectmeter_brick.res"
 {
 	"EmptyIcon"
 	{
