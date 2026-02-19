@@ -9,8 +9,8 @@
 		"xpos_minmode"	"0"
 		"ypos_minmode"	"0"	
 
-		"x_offset_mediccharge"	"-18"
-		"y_offset_mediccharge"	"-40"
+		"x_offset_mediccharge"	"18"
+		"y_offset_mediccharge"	"-36"
 		"y_offset_mediccharge_minmode"	"-67"
 	}
 
@@ -48,7 +48,7 @@
 
 	DisguiseStatus
 	{
-		"xpos"		"cs-0.5-208"
+		"xpos"		"cs-0.5-207"
 		"wide"		"129"
 		"tall"		"65"
 		"xpos_minmode"		"cs-0.5-202"
