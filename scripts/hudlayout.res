@@ -6,6 +6,7 @@
 
 // Customization
 
+#base "../_customization/centered_weapon_charge.res"
 #base "../_customization/medic_left_ammo_and_shock/ammo.res"
 
 // Base

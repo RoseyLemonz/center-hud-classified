@@ -5,11 +5,22 @@
 {
 	"EmptyIcon"
 	{
-		"ypos"			"2"
+		"xpos"			"27"
+		"ypos"			"3"
+		"wide"			"32"
 	}
 
 	"ChargingIcon"
 	{
-		"ypos"			"2"
+		"xpos"			"27"
+		"ypos"			"3"
+		"wide"			"32"
+	}
+
+	"FullIcon"
+	{
+		"xpos"			"28"
+		"ypos"			"1"
+		"wide"			"32"
 	}
 }

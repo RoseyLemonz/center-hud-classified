@@ -20,7 +20,7 @@
 		"xpos"			"cs-0.5+207"
 		"ypos"			"rs1-11"
 		"xpos_minmode"	"cs-0.5+202"
-		"ypos_minmode"	"r25"
+		"ypos_minmode"	"rs1"
 	}
 	
 	"HudWeaponLowAmmoImageMedicCharge"
@@ -28,19 +28,22 @@
 		"xpos"			"cs-0.5+207"
 		"ypos"			"rs1-11"
 		"xpos_minmode"	"cs-0.5+202"
-		"ypos_minmode"	"r25"
+		"ypos_minmode"	"rs1"
 	}
 
 	"WeaponBucket"
 	{
-		"xpos"			"r0"
-		"xpos_minmode"	"r0"
+		"xpos"			"cs-0.5+208"
+		"ypos"			"rs1+10"
+		"xpos_minmode"	"cs-0.5+202"
+		"ypos_minmode"	"rs0.8"
 	}
+
 	"AmmoInClip"
 	{
-		"xpos"			"cs-0.5+189-14"
-		"ypos"			"rs1-14"
-		"xpos_minmode"	"cs-0.5+188-14"
+		"xpos"			"cs-0.5+189-15"
+		"ypos"			"rs1-15"
+		"xpos_minmode"	"cs-0.5+188-15"
 		"ypos_minmode"	"rs1"
 	}
 	"AmmoInReserve"
@@ -52,9 +55,10 @@
 	}	
 	"AmmoNoClip"
 	{
-		"xpos"			"cs-0.5+200-14"
+		"xpos"			"cs-0.5+200-10"
 		"ypos"			"rs1-15"
-		"xpos_minmode"	"cs-0.5+190-14"
+		"xpos_minmode"	"cs-0.5+190-10"
+		"ypos_minmode"	"rs1"
 		"ypos_minmode"	"rs1"
 	}
 }

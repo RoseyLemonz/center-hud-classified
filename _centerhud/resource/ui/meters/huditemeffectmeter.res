@@ -4,10 +4,8 @@
 	{
 		"xpos"			"c230"
 		"ypos"			"r55"
-		"xpos_minmode"	"c160"
-		"ypos_minmode"	"rs1-42"
-		"tall_minmode"	"18"
-		"wide_minmode"	"50"
+		"xpos_minmode"	"c225"
+		"ypos_minmode"	"rs0.5"
 	}
 	
 	"ItemEffectMeterBG"
@@ -30,6 +28,7 @@
 		"wide"			"36"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"ypos_minmode"	"20"
 	}
 
 	"ItemEffectMeter"
@@ -39,41 +38,58 @@
 		"wide"			"36"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"ypos_minmode"	"20"
 	}
 
 	"EmptyIcon"
 	{
-		"xpos"			"26"
-		"ypos"			"0"
-		"wide"			"40"
+		"xpos"			"22"
+		"ypos"			"-6"
+		"wide"			"48"
+		"tall"			"o1"
 		"dropshadow_override"		"1"
 		"dropshadowoffset"	"2"
+		"xpos_minmode"		"r0"
+		"wide_minmode"		"0"
+		"visible_minmode"	"0"
 	}
 
 	"ChargingIcon"
 	{
-		"xpos"			"26"
-		"ypos"			"0"
-		"wide"			"40"
+		"xpos"			"22"
+		"ypos"			"-6"
+		"wide"			"48"
+		"tall"			"o1"
 		"dropshadow_override"		"1"
 		"dropshadowoffset"	"2"
+		"xpos_minmode"		"r0"
+		"wide_minmode"		"0"
+		"visible_minmode"	"0"
 	}
 	
 	"ActiveIcon"
 	{
-		"xpos"			"26"
-		"ypos"			"0"
-		"wide"			"40"
+		"xpos"			"22"
+		"ypos"			"-6"
+		"wide"			"48"
+		"tall"			"o1"
 		"dropshadow_override"		"1"
 		"dropshadowoffset"	"2"
+		"xpos_minmode"		"r0"
+		"wide_minmode"		"0"
+		"visible_minmode"	"0"
 	}
 	
 	"FullIcon"
 	{
-		"xpos"			"26"
-		"ypos"			"0"
-		"wide"			"40"
+		"xpos"			"22"
+		"ypos"			"-6"
+		"wide"			"48"
+		"tall"			"o1"
 		"dropshadow_override"		"1"
 		"dropshadowoffset"	"2"
+		"xpos_minmode"		"r0"
+		"wide_minmode"		"0"
+		"visible_minmode"	"0"
 	}
 }

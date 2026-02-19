@@ -7,5 +7,6 @@
 	{
 		"xpos"			"c180"
 		"ypos"			"r134"
+		"xpos_minmode"	"c238"
 	}
 }

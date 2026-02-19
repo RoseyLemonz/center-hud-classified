@@ -4,29 +4,29 @@
 {
 	"EmptyIcon"
 	{
-		"xpos"			"28"
-		"ypos"			"0"
-		"wide"			"32"
+		"xpos"			"25"
+		"ypos"			"-4"
+		"wide"			"38"
 	}
 
 	"ChargingIcon"
-	{		
-		"xpos"			"28"
-		"ypos"			"0"
-		"wide"			"32"
+	{
+		"xpos"			"25"
+		"ypos"			"-4"
+		"wide"			"38"
 	}
 	
 	"ActiveIcon"
-	{		
-		"xpos"			"28"
-		"ypos"			"0"
-		"wide"			"32"
+	{
+		"xpos"			"25"
+		"ypos"			"-4"
+		"wide"			"38"
 	}
 	
 	"FullIcon"
-	{		
-		"xpos"			"28"
-		"ypos"			"0"
-		"wide"			"32"
+	{
+		"xpos"			"25"
+		"ypos"			"-4"
+		"wide"			"38"
 	}
 }
