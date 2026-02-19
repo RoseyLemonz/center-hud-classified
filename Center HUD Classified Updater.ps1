@@ -550,11 +550,11 @@ try {
 				Remove-Variable "zip"
 
 				Write-Host -foregroundcolor "White" -NoNewLine "Moving folders and files out of extracted zip..."
-				Copy-Item -Path ./center-hud/* -Destination $PSScriptRoot -Force -Recurse
+				Copy-Item -Path ./center-hud-classified/* -Destination $PSScriptRoot -Force -Recurse
 				Write-Host -foregroundcolor "Blue" "Complete"
 
 				Write-Host -foregroundcolor "White" -NoNewLine "Removing folders and files used in the process.."
-				Remove-Item "./center-hud" -ErrorAction SilentlyContinue -Recurse
+				Remove-Item "./center-hud-classified" -ErrorAction SilentlyContinue -Recurse
 				Write-Host -foregroundcolor "Blue" "Complete"
 				Write-Host ""
 
